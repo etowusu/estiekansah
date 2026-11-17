@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block access to sensitive or private files
+Disallow: /php.txt
+Disallow: /config/
+Disallow: /admin/
+Disallow: /cart/
+Disallow: /checkout/
+
+# Sitemap Location
+Sitemap: https://estiekansah.com/sitemap.xml
